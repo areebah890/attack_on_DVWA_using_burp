@@ -3,6 +3,10 @@
 
 # File Inclusion – DVWA Low Security
 
+**Tester:** Areebah Khan  
+**Application:** DVWA v1.10 – Low Security  
+**Date:** 07/09/25
+
 ## Objective
 Demonstrate Local File Inclusion (LFI) and exploitation steps to retrieve sensitive files and database credentials.
 
