@@ -50,12 +50,12 @@ The project involves practical exploitation of these vulnerabilities in a contro
 
 | Attack Type | Objective | Key Findings | Impact | File  |
 |------------|-----------|--------------|--------|-----------------|
-| SQL Injection (SQLi) | Extract sensitive user data and enumerate the database | User input not sanitized; able to retrieve DB version, database name, table names, column names, and user credentials | Full compromise of user accounts; sensitive data exposure | [SQLinjection.md](#) |
-| Command Injection | Execute arbitrary system commands via DVWA Ping module | Input not sanitized; gathered system info: users, network interfaces, files | Potential privilege escalation; system reconnaissance possible | [Command Injection Report](#) |
-| File Inclusion (LFI) | Read system files and extract DVWA database credentials | Unsanitized page parameter; could include /etc/passwd or config files; extracted DB credentials | Full database compromise; credential theft; potential application takeover | [LFI Report](#) |
-| Reflected XSS | Demonstrate unsanitized HTML/JS execution via user input | HTML input reflected back immediately; JS executed in browser | Session hijacking, phishing, arbitrary actions on behalf of the user | [Reflected XSS Report](#) |
-| Stored XSS | Demonstrate persistent script execution stored in the database | Script stored server-side; executed when other users view page | Persistent attack vector affecting all users; high risk for phishing/malware injection | [Stored XSS Report](#) |
-| DOM-Based XSS | Exploit client-side JavaScript to manipulate DOM via URL parameters | Input parameter executed in browser; able to change page content, colors, inject scripts | Arbitrary DOM manipulation; browser-side security compromise | [DOM XSS Report](#) |
+| SQL Injection (SQLi) | Extract sensitive user data and enumerate the database | User input not sanitized; able to retrieve DB version, database name, table names, column names, and user credentials | Full compromise of user accounts; sensitive data exposure | https://github.com/areebah890/attack_on_DVWA_using_burp/blob/main/01-SQLinjection.md |
+| Command Injection | Execute arbitrary system commands via DVWA Ping module | Input not sanitized; gathered system info: users, network interfaces, files | Potential privilege escalation; system reconnaissance possible | (https://github.com/areebah890/attack_on_DVWA_using_burp/blob/main/02-Commandinjection.md) |
+| File Inclusion (LFI) | Read system files and extract DVWA database credentials | Unsanitized page parameter; could include /etc/passwd or config files; extracted DB credentials | Full database compromise; credential theft; potential application takeover | https://github.com/areebah890/attack_on_DVWA_using_burp/blob/main/03-FileInclusion.md|
+| Reflected XSS | Demonstrate unsanitized HTML/JS execution via user input | HTML input reflected back immediately; JS executed in browser | Session hijacking, phishing, arbitrary actions on behalf of the user | https://github.com/areebah890/attack_on_DVWA_using_burp/blob/main/04-ReflectedXSS.md |
+| Stored XSS | Demonstrate persistent script execution stored in the database | Script stored server-side; executed when other users view page | Persistent attack vector affecting all users; high risk for phishing/malware injection | https://github.com/areebah890/attack_on_DVWA_using_burp/blob/main/05-StoredXSS.md |
+| DOM-Based XSS | Exploit client-side JavaScript to manipulate DOM via URL parameters | Input parameter executed in browser; able to change page content, colors, inject scripts | Arbitrary DOM manipulation; browser-side security compromise | https://github.com/areebah890/attack_on_DVWA_using_burp/blob/main/06-DOMXSS.md |
 
 --- 
 
