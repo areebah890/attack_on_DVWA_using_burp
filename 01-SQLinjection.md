@@ -3,6 +3,10 @@
 
 # SQL Injection – DVWA Low Security
 
+**Tester:** Areebah Khan  
+**Application:** DVWA v1.10 – Low Security  
+**Date:** 07/09/25
+
 ## Objective
 Demonstrate SQL injection vulnerabilities and exploitation steps to extract sensitive data.
 
