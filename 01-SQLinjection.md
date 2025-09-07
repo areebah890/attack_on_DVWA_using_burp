@@ -1,9 +1,6 @@
 
 ---
 
-## **SQL-Injection**
-
-
 # SQL Injection – DVWA Low Security
 
 ## Objective
