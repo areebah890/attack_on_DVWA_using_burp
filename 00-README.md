@@ -50,7 +50,7 @@ The project involves practical exploitation of these vulnerabilities in a contro
 
 | Attack Type | Objective | Key Findings | Impact | File  |
 |------------|-----------|--------------|--------|-----------------|
-| SQL Injection (SQLi) | Extract sensitive user data and enumerate the database | User input not sanitized; able to retrieve DB version, database name, table names, column names, and user credentials | Full compromise of user accounts; sensitive data exposure | [SQLi Report](#) |
+| SQL Injection (SQLi) | Extract sensitive user data and enumerate the database | User input not sanitized; able to retrieve DB version, database name, table names, column names, and user credentials | Full compromise of user accounts; sensitive data exposure | [SQLinjection.md](#) |
 | Command Injection | Execute arbitrary system commands via DVWA Ping module | Input not sanitized; gathered system info: users, network interfaces, files | Potential privilege escalation; system reconnaissance possible | [Command Injection Report](#) |
 | File Inclusion (LFI) | Read system files and extract DVWA database credentials | Unsanitized page parameter; could include /etc/passwd or config files; extracted DB credentials | Full database compromise; credential theft; potential application takeover | [LFI Report](#) |
 | Reflected XSS | Demonstrate unsanitized HTML/JS execution via user input | HTML input reflected back immediately; JS executed in browser | Session hijacking, phishing, arbitrary actions on behalf of the user | [Reflected XSS Report](#) |
